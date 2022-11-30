@@ -6,8 +6,8 @@ const canvas = document.getElementById("game");
 const ctx = canvas.getContext("2d");
 
 
-canvas.width = 2600;
-canvas.height = 1100;
+canvas.width = 1300;
+canvas.height = 550;
 
 var start;var startImg;
 var gameState = 'start';
