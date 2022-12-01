@@ -21,9 +21,9 @@ const enemyController = new EnemyController(canvas,enemyBulletController,playerB
 const player = new Player(canvas, 3, playerBulletController);
 
 //bg music section
-const audio = new Audio("bg.mp3");
+/*const audio = new Audio("bg.mp3");
 audio.volume=0.6;
-audio.play();
+audio.play();*/
 
 let isGameOver = false;
 let didWin = false;
@@ -56,7 +56,7 @@ function displayGameOver() {
 function checkGameOver() {
   if (isGameOver) {
     //to turn of the audio
-    audio.volume=0;
+    //audio.volume=0;
     return;
   }
 
