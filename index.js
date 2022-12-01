@@ -47,7 +47,7 @@ function displayGameOver() {
     
     ctx.fillStyle = "white";
     ctx.font = "500px Arial";
-    ctx.fillText(text, canvas.width / 2, canvas.height / 2);
+    ctx.fillText(text, canvas.width / 3.3, canvas.height / 2);
   }
 }
 
