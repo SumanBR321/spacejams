@@ -9,9 +9,9 @@ export default class Player {
     this.bulletController = bulletController;
 
     this.x = this.canvas.width / 2;
-    this.y = this.canvas.height - 200;
-    this.width = 400;
-    this.height = 280;
+    this.y = this.canvas.height - 500;
+    this.width = 500;
+    this.height = 300;
     this.image = new Image();
     this.image.src = "player.png";
     document.addEventListener("keydown", this.keydown);
