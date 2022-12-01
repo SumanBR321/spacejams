@@ -72,4 +72,4 @@ function checkGameOver() {
   }
 }
 
-setInterval(game, 1000 /250;
+setInterval(game, 1000 /250);
