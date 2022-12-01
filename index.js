@@ -21,7 +21,7 @@ const enemyController = new EnemyController(canvas,enemyBulletController,playerB
 const player = new Player(canvas, 3, playerBulletController);
 
 //bg music section
-const audio = new Audio("bg.aac");
+const audio = new Audio("bg.mp3");
 audio.volume=0.6;
 audio.play();
 
