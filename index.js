@@ -72,4 +72,5 @@ function checkGameOver() {
   }
 }
 
+//h
 setInterval(game, 1000 /250);
