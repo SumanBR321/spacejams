@@ -9,9 +9,6 @@ const ctx = canvas.getContext("2d");
 canvas.width = 1300;
 canvas.height = 550;
 
-var start;var startImg;
-var gameState = 'start';
-
 const background = new Image();
 background.src = "space.png";
 
@@ -22,8 +19,8 @@ const player = new Player(canvas, 3, playerBulletController);
 
 //bg music section
 /*const audio = new Audio("bg.mp3");
-audio.volume=0.6;
-audio.play();*/
+audio.volume=0.6;*/
+
 
 let isGameOver = false;
 let didWin = false;
