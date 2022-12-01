@@ -2,8 +2,8 @@ export default class Enemy {
   constructor(x, y, imageNumber) {
     this.x = x;
     this.y = y;
-    this.width = 200;
-    this.height = 200;
+    this.width = 150;
+    this.height = 150;
 
     this.image = new Image();
     this.image.src = `enemy${imageNumber}.png`;
