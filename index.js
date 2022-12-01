@@ -6,8 +6,8 @@ const canvas = document.getElementById("game");
 const ctx = canvas.getContext("2d");
 
 
-canvas.width = 1300;
-canvas.height = 550;
+canvas.width = 2400;
+canvas.height = 1100;
 
 const background = new Image();
 background.src = "space.png";
@@ -18,8 +18,9 @@ const enemyController = new EnemyController(canvas,enemyBulletController,playerB
 const player = new Player(canvas, 3, playerBulletController);
 
 //bg music section
-/*const audio = new Audio("bg.mp3");
-audio.volume=0.6;*/
+const audio = new Audio("bg.mp3");
+audio.volume=0.6;
+audio.play();
 
 
 let isGameOver = false;
