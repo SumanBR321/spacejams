@@ -137,7 +137,7 @@ export default class EnemyController {
       row.forEach((enemyNubmer, enemyIndex) => {
         if (enemyNubmer > 0) {
           this.enemyRows[rowIndex].push(
-            new Enemy(enemyIndex * 190, rowIndex * 100, enemyNubmer)
+            new Enemy(enemyIndex * 290, rowIndex * 200, enemyNubmer)
           );
         }
       });
