@@ -46,7 +46,7 @@ function displayGameOver() {
     let textOffset = didWin ? 3.5 : 5;
     
     ctx.fillStyle = "white";
-    ctx.font = "1000px Arial";
+    ctx.font = "500px Arial";
     ctx.fillText(text, canvas.width / 2, canvas.height / 2);
   }
 }
